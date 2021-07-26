@@ -29,7 +29,7 @@
 
 
 
-────────── 실습 참고 내용(CLI버전) ──────────  
+────────── 실습 내용 흐름 ──────────  
 git remote add origin https://GitHub.com/Cat-Hanbbit/iTshirt.git : 로컬저장소에 원격저장소 주소를 알려줌,  
                                                                    [origin] 이란  이름으로 원격 저장소를 추가하라는 것  
 git add README.txt 		: README.txt 파일을 커밋.  
