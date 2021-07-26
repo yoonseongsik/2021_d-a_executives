@@ -29,11 +29,11 @@
 
 
 
-────────── 실습 참고 내용(CLI버전) ──────────
-git remote add origin https://GitHub.com/Cat-Hanbbit/iTshirt.git : 로컬저장소에 원격저장소 주소를 알려줌,
-                                                                   [origin] 이란  이름으로 원격 저장소를 추가하라는 것
-git add README.txt 		: README.txt 파일을 커밋.
-git commit -m "개발자 목록 추가"	: README.txt 파일의 커밋에 '개발자 목록 추가'라는 설명을 붙임.
-git push origin master		: 원격저장소에 푸시.
-git pull origin master		: 원격저장소에 새로운 커밋이 있다면 내 로컬저장소로 받아오기. 
+────────── 실습 참고 내용(CLI버전) ──────────  
+git remote add origin https://GitHub.com/Cat-Hanbbit/iTshirt.git : 로컬저장소에 원격저장소 주소를 알려줌,  
+                                                                   [origin] 이란  이름으로 원격 저장소를 추가하라는 것  
+git add README.txt 		: README.txt 파일을 커밋.  
+git commit -m "개발자 목록 추가"	: README.txt 파일의 커밋에 '개발자 목록 추가'라는 설명을 붙임.  
+git push origin master		: 원격저장소에 푸시.  
+git pull origin master		: 원격저장소에 새로운 커밋이 있다면 내 로컬저장소로 받아오기.   
 
