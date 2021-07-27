@@ -45,10 +45,10 @@ origin 원격 저장소는 현재 origin/master 브랜치의 상태와 같음
 ## 성식 주제 : CLI 환경에서 자주 쓰는 명령어 모음집
 •	git init : git 생성하기<br/>
 •	git status: 현재 git 상태를 보여줌, 다음 4가지 상태로 출력<br/>
-    1)	Untracked files<br/>
-    2) Changes to be committed<br/>
-    3) Changes not staged for commit<br/>
-    4) Nothing to commit, working tree clean<br/>
+    <pre>1)	Untracked files</pre><br/>
+    <pre>2) Changes to be committed</pre><br/>
+    <pre>3) Changes not staged for commit</pre><br/>
+    <pre>4) Nothing to commit, working tree clean</pre><br/>
 •	git log: 히스토리를 조회하는 명령어, 커밋 단위로 히스토리가 쌓임, log를 볼 줄 알아야 <br/>develop, release, hotfix 브랜치가 난무할 때 merge 방향이나 순서를 이해할 수 있음<br/>
 •	git clone git_path : 코드가져오기<br/>
 •	git checkout branch_name : 브랜치 선택하기<br/>
@@ -65,10 +65,10 @@ origin 원격 저장소는 현재 origin/master 브랜치의 상태와 같음
 •	git commit -am : -a와 -m을 합친 것.<br/>
 •	git commit -amend : 마지막 커밋을 수정할 수 있는 옵션. 현재 stage 상태의 파일들이 마지막 커밋과 합쳐서 다시 커밋 됨.<br/>
 •	git push romote_name branch_name : add하고 commit한 코드 git server에 보내기 (git push origin master)<br/>
-    push -f 옵션: push –force의 단축, 내 로컬 브랜치로 원격 브랜치를 강제로 덮어 씌움<br/>
+    <pre>push -f 옵션: push –force의 단축, 내 로컬 브랜치로 원격 브랜치를 강제로 덮어 씌움
     push –set-upstream 옵션: git push --set-upstream [원격 저장소 이름] [브랜치 이름]
     push 시 fatal: The current branch ... has no upstream branch 에러가 발생할 수 있는데, 이는 원격 저장소에 push하려는 브랜치가 없다는 메시지이다.<br/>
-이럴 때는 push --set-upstream 옵션을 사용해서 원격 저장소 이름과 브랜치 이름을 명시하면 정상적으로 push된다.<br/>
+    이럴 때는 push --set-upstream 옵션을 사용해서 원격 저장소 이름과 브랜치 이름을 명시하면 정상적으로 push된다.</pre><br/>
 •	git pull : git서버에서 최신 코드 받아와 merge 하기<br/>
 •	git fetch : git서버에서 최신 코드 받아오기<br/>
 •	git reset — hard HEAD^ : commit한 이전 코드 취소하기<br/>
